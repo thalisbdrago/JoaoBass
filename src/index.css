@@ -1,1 +1,9 @@
 @import "tailwindcss";
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-osvaldo {
+  font-family: 'Oswald', sans-serif;
+}
+  
