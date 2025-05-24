@@ -11,19 +11,19 @@ const Conquistas = () => {
       {/* Coluna esquerda */}
       <div className="w-full md:w-1/2 flex justify-center items-center p-6 md:p-0">
         <div className="w-full md:w-3/4 flex flex-col gap-5">
-          <h1 className="text-3xl md:text-4xl m-0">Conquistas e Reconhecimentos</h1>
-          <p>
+          <h1 className="text-3xl md:text-4xl m-0 font-osvaldo">Conquistas e Reconhecimentos</h1>
+          <p className="font-osvaldo">
             1+ Milhão de Visualizações nas minhas redes sociais (YouTube, Instagram).
             Endorse de Marcas Reconhecidas:
           </p>
-          <ul className="pl-5 list-disc">
+          <ul className="pl-5 list-disc font-osvaldo">
             <li>D'mark</li>
             <li>Aslan Guitars</li>
             <li>Soundvoice</li>
             <li>Fones KZ</li>
             <li>Code</li>
           </ul>
-          <p>
+          <p className="font-osvaldo">
             Essas parcerias não apenas validam meu trabalho, mas também me permitem
             trazer o melhor em termos de qualidade e inovação para o meu público e alunos.
           </p>
