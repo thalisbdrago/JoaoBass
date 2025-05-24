@@ -8,7 +8,7 @@ import image5 from "../assets/IMG_2858.JPG"
 import image6 from "../assets/IMG_5566.JPG"
 
 import { MessageCircle } from "lucide-react";
-import Conquistas from '../components/conquistas';
+import Conquistas from '../components/Conquistas';
 
 
 
