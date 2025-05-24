@@ -8,6 +8,7 @@ import image5 from "../assets/IMG_2858.JPG"
 import image6 from "../assets/IMG_5566.JPG"
 
 import { MessageCircle } from "lucide-react";
+import Conquistas from '../components/conquistas';
 
 
 
@@ -69,59 +70,53 @@ const Sobre = () => {
             <span className="absolute bottom-0 right-0 text-9xl text-gray-400">*</span>
         </div>
     </div>
+    <Conquistas />
 
 {/* Seção 3 - Contato */}
-        <div className="relative w-full h-screen">
-        {/* Imagem de fundo ocupando toda a section */}
-        <img
-            src={image5}
-            alt="Show ao vivo com João Martins"
-            className="absolute top-0 left-0 w-full h-full object-cover"
-        />
+{/* Seção 3 - Contato */}
+<div className="relative w-full h-screen">
+  {/* Imagem de fundo ocupando toda a section */}
+  <img
+    src={image5}
+    alt="Show ao vivo com João Martins"
+    className="absolute top-0 left-0 w-full h-full object-cover"
+  />
 
-        {/* Sobreposição escura leve (opcional) */}
-        <div className="absolute top-0 left-0 w-full h-full bg-black/30" />
+  {/* Sobreposição escura leve */}
+  <div className="absolute top-0 left-0 w-full h-full bg-black/40" />
 
-        {/* Formulário de contato no canto esquerdo */}
-        <div className="relative z-10 flex items-center h-full pl-0 md:pl-10">
-            <div className="bg-white/90 text-black p-10 md:p-12 rounded-lg shadow-xl max-w-md w-full">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Entre em Contato</h2>
+  {/* Conteúdo com links no lugar do formulário */}
+  <div className="relative z-10 flex items-center justify-center h-full px-6">
+    <div className="bg-white/90 text-black p-10 md:p-12 rounded-lg shadow-xl max-w-md w-full text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-6">Entre em Contato</h2>
+      <p className="mb-4 text-lg">Me siga ou envie uma mensagem:</p>
 
-            <form className="space-y-4">
-                <input
-                type="text"
-                placeholder="Nome"
-                className="w-full p-3 border border-gray-300 rounded"
-                />
-                <input
-                type="email"
-                placeholder="E-mail"
-                className="w-full p-3 border border-gray-300 rounded"
-                />
-                <input
-                type="tel"
-                placeholder="Telefone"
-                className="w-full p-3 border border-gray-300 rounded"
-                />
-                <textarea
-                rows="4"
-                type="text"
-                placeholder="Mensagem"
-                className="w-full p-3 border border-gray-300 rounded"
-                />
-                <button
-                type="submit"
-                className="w-full bg-black text-white py-3 rounded hover:bg-gray-800 transition"
-                >
-                ENVIAR MENSAGEM
-                </button>
-            </form>
-            </div>
-        </div>
-        </div>
+      <div className="flex flex-col gap-4">
+        <a
+          href="https://www.instagram.com/joaomartinsbass" // Substitua pela URL real
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-black text-white py-3 rounded hover:bg-gray-800 transition"
+        >
+          Instagram @joaomartinsbass
+        </a>
+
+        <a
+          href="https://www.instagram.com/groovedozero" // Outro exemplo
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-black text-white py-3 rounded hover:bg-gray-800 transition"
+        >
+          Instagram @groovedozero
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
+      
 
       {/* Ícone no rodapé */}
       <footer className="bg-neutral-800 text-white py-8">
