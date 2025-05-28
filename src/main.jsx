@@ -7,7 +7,6 @@ import Sobre from './pages/Sobre.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar />
     <Sobre />
     <App />
   </StrictMode>,
